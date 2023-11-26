@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CONTACT-US</title>
+
+
+  <!-- ******* External CSS ******* -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ******* Firebase Database keys ******* -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+  <!-- *********** Font awesome cdn ********** -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ******** Bootstrap Link ******** -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <!-- ******* Section Navbar ******* -->
+  <section>
+    <!-- ******* Navbar Start ****** -->
+    <nav class="pix">
+      <nav class="navbar navbar-expand-lg linknavbar">
+        <div class="container">
+          <!-- logo img -->
+          <div class="logo">
+            <img class="logoimg" src="men-cloth/Ragrebel_logo-removebg-preview.png" alt="RAGAREBEL" height="80px"><span
+              class="ms-3 logo">RAGAREBEL</span>
+          </div>
+
+          <!-- ******** Toggle Button ******* -->
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            </span>
+          </button>
+
+          <!-- ******* Navigation Links ****** -->
+          <div class="collapse navbar-collapse list" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto" id="navLinks">
+              <li class="nav-item">
+                <a class="nav-link home" href="./index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link home" href="./about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link purchase" href="./shop.html">SHOP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <!-- ***** Navbar end **** -->
+
+
+    <!-- ********** contact heading ******* -->
+    <section class="mainlinks">
+      <div class="container">
+        <h1 class="headlinks text-center">CONTACT</h1>
+      </div>
+    </section>
+
+
+    <!-- ***** form ***** -->
+    <div class="container mood">
+      <div class="border mainborder dobal text-center">
+        <p class="inpara">NAME</p>
+        <input class="inputs" type="text" id="name" required>
+        <p class="inpara">EMAIL</p>
+        <input class="inputs" type="email" id="email" required>
+        <p class="inpara">PHONE NUMBER</p>
+        <input class="inputs" type="tel" id="phone" required>
+        <p class="inpara">ADDRESS</p>
+        <input class="inputs" type="text" id="address" required>
+        <br>
+        <button type="button" onclick="submit()" class="btn btn-dark mt-5 submitbtn">SUBMIT</button>
+      </div>
+    </div>
+
+
+    <!-- ********* footer ********* -->
+    <footer class="mainfooter">
+      <div class="container">
+        <div class=" text-center footer-img00">
+          <img class="logoimg " src="men-cloth/Ragrebel_logo-removebg-preview.png" alt="RAGAREBEL" height="100px"><span
+            class="ms-1 logo">RAGAREBEL</span>
+          <div class="footercont">
+            <p>Thank you for exploring our online sanctuary,
+              where the essence of fashion meets an exceptional shopping journey.
+              At Ragrebal, we extend beyond mere clothing;
+              we embody an ode to diverse styles. Our meticulously curated collection,
+              crafted for both men and women, reflects our dedication to excellence and an unwavering appreciation for
+              enduring designs.</p>
+          </div>
+          <div class="num">
+            <p><i class="fa-solid fa-phone ficon"></i>0300-2304399 <span class="what"><i
+                  class="fa-brands fa-whatsapp faicon "></i>0300-2304399</span>
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="ps-3 icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="ps-3 ficon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="ps-3 ficon"><i class="fa-solid fa-phone"></i></a>
+          </div>
+          <hr>
+          <div class="created">
+            <p>Created by : <span class="mr">MR.FAIZAN</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- ***** JS Link ***** -->
+    <script src="app.js"></script>
+
+
+    <!-- ***** Bootstrap Link ***** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* ***** main **** */
+.main {
+    background-image: url('men-cloth/what-removebg.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjusted to cover for full responsiveness */
+    width: 100%;
+}
+.navbar {
+    margin-bottom: -3em;
+    background-color:#607D8B ;
+    color: #112A46;
+}
+/* ********* Navbar Styling ******** */
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ********* list styling ******** */
+.list {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+/* ******* Navbar links color ******* */
+.navbar-nav .nav-link {
+    color:white; 
+    font-weight: 700;
+}
+
+/* Navbar links hover color */
+.navbar-nav .nav-link:hover {
+    color:black;
+    border: solid 2px white;
+}
+
+.home {
+    margin-left: 30px;
+}
+.navbar-toggler{
+    margin-top: -79px;
+}
+
+
+.purchase {
+    margin-right: 55px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+
+.custom-toggler{
+    border-radius: 0;
+
+    margin-right: auto;
+}
+.custom-toggler:hover {
+    background-color: white;
+}
+
+/* ********* Media Querry for navbar responsive ********* */
+@media only screen and (max-width:991px) and (min-width : 768px) {
+    #navLinks {
+        display: block;
+        /* position: fixed; */
+        top: 75px;
+        right: 0;
+        background-color: #3b505a;
+        z-index: 1000;
+    }
+    .navbar-toggler {
+        margin-left: 30em;
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width : 504px) {
+    #navLinks {
+        display: block;
+        /* position: fixed; */
+        top: 75px;
+        right: 0;
+        background-color: #3b505a;
+        z-index: 1000;
+    }
+    .navbar-toggler {
+        margin-left: 20em;
+    }
+}
+
+@media only screen and (max-width:503px) and (min-width : 400px) {
+    #navLinks {
+        display: block;
+        /* position: fixed; */
+        top: 75px;
+        right: 0;
+        background-color: #3b505a;
+        z-index: 1000;
+    }
+    .navbar-toggler {
+        margin-left: 280px;
+    }
+}
+
+@media only screen and (max-width : 399px) and (min-width : 350px) {
+    #navLinks {
+        display: block;
+        /* position: fixed; */
+        top: 75px;
+        right: 0;
+        background-color:#3b505a;
+        z-index: 1000;
+    }
+    .navbar-toggler {
+        margin-left: 250px;
+    }
+
+}
+@media only screen and (max-width : 349px) and (min-width : 300px) {
+    #navLinks {
+        display: block;
+        /* position: fixed; */
+        top: 75px;
+        right: 0;
+        background-color: #3b505a;
+        z-index: 1000;
+    }
+
+    .navbar-toggler {
+        margin-left: 200px;
+    }
+}
+
+.content-section h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 750;
+    font-size: 50px;
+    padding-top: 85px;
+    padding-bottom: 10px;
+}
+
+.content-section h3{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.content-section p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-bottom:80px ;
+}
+
+ /* *********section 1 and 2 Styling********  */
+
+.boysimg{
+    margin-left: 5%;
+}
+
+.imge{
+    background-color: #607D8B;
+}
+
+
+ .imgheading{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+    font-size: 3em;
+ }
+
+ .card:hover{
+    background-color:antiquewhite;
+    width: 100px;
+ }
+
+ .ankher {
+    background-color: #0468c5;
+    border: 1px solid #0468c5;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 9px 13px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.ankher:hover {
+    background-color:#3b505a;
+}
+
+del{
+    font-size:15px ;
+    color: #607D8B;
+}
+
+.cardpara{
+    margin-bottom: -8px;
+    margin-top: -13px;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wicon{
+    color: green;
+    font-size: 1.3em;
+    margin-right: 7px;
+}
+ /***********Media Querry for responsive*********/
+@media only screen and (max-width:767px) and (min-width : 504px){
+     .boys-main{
+        margin-left: 5em;
+     }
+}
+
+@media only screen and (max-width:503px) and (min-width : 460px){
+    .boys-main{
+       margin-left: 5em;
+    }
+}
+
+@media only screen and (max-width:459px) and (min-width : 420px){
+    .boys-main{
+       margin-left: 3em;
+    }
+}
+
+ @media only screen and (max-width:419px) and (min-width : 370px){
+    .boys-main{
+       margin-left: 10px;
+    }
+}
+
+ @media only screen and (max-width : 349px) and (min-width : 300px){
+    .boysimg{
+        margin-left: 1%;
+    }
+    .imgheading{
+        margin-top: 10px;
+        margin-bottom: 60px;
+        font-size: 2em;
+    }
+}
+
+/* *****About,contact,shop navbar Styling**** */
+.linknavbar{
+    margin-bottom: -1px;
+    background-color:#607D8B ;
+    color: #112A46;
+}
+
+.mainlinks{
+    background-image: url(./men-cloth/tshirt_backgurong-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+}
+
+.headlinks{
+    font-weight: bold;
+    font-size: 3.5em;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* *******contact page Styling******* */
+.mood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainborder {
+    background-color: #547e93;
+    margin: 3em auto;
+    padding: 3em;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px 0 #112A46, inset 0 -1px 0 0 #dadce0;
+    width: 80%;
+    max-width: 600px;
+}
+
+.dobal {
+    width: 100%;
+}
+
+.inpara {
+    color: white;
+    margin-bottom: 6px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.inputs {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.submitbtn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitbtn:hover {
+    background-color: #555;
+}
+/* *******About page Styling****** */
+.aboutpara{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+
+}
+
+.submitbtn{
+    width: 9em;
+}
+
+.seemore{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color:#3b505a;
+    border-radius: 7px;
+    color:#ccc;
+}
+
+/* ******footer***** */
+
+.mainfooter{
+    background-color: #607d8b;
+    
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.footer-img{
+      padding-top: 20px;
+}
+
+.footercont{
+    color: #112A46;
+    font-weight: 600;
+}
+
+.icon{
+    font-size: 23px;
+    color: aliceblue;
+}
+
+.icon:hover{
+    color:rgb(255, 38, 0);
+
+}
+
+.num{
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.ficon{
+    font-size: 1.3em;
+    color: white;
+    margin-right: 7px;
+}
+
+.faicon{
+    font-size: 1.3em;
+    color: white;
+    margin-right: 10px;
+}
+
+.ficon:hover{
+    color: blue;
+}
+
+.faicon:hover{
+    color: green;
+}
+
+.what{
+    margin-left: 15px;
+}
+
+hr{
+    color: #112A46;
+}
+
+.created{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    text-align: end;
+}
+
+.mr{
+    color: black;
+    font-weight: 700;
+}
+.mr:hover{
+    color:yellow;
+}
+
+.created p{
+    color: purple;
+    font-weight: 700;
+}
+
+ 
